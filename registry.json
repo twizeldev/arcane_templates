@@ -16,6 +16,23 @@
             "env_url": "https://raw.githubusercontent.com/twizeldev/arcane_templates/main/filebrowser-oidc/.env.example",
             "documentation_url": "https://github.com/twizeldev/arcane_templates/main/filebrowser-oidc",
             "tags": ["files", "oidc"]
+        },
+        {
+            "id": "seerr",
+            "name": "Seerr",
+            "description": "Media requests system for Jellyfin, Emby & Plex",
+            "version": "1.0.0",
+            "author": "Twizel Dev",
+            "compose_url": "https://raw.githubusercontent.com/twizeldev/arcane_templates/refs/heads/main/seerr/compose.yaml",
+            "env_url": "https://raw.githubusercontent.com/twizeldev/arcane_templates/refs/heads/main/seerr/.env.example",
+            "documentation_url": "https://github.com/twizeldev/arcane_templates/tree/main/seerr",
+            "tags": [
+                "Requests",
+                "Media",
+                "Jellyfin",
+                "Emby",
+                "Plex"
+            ]
         }
     ]
 }
