@@ -12,7 +12,7 @@
             "description": "Web based file manager",
             "version": "1.0.0",
             "author": "Twizel Dev",
-            "compose_url": "https://raw.githubusercontent.com/twizeldev/arcane_templates/main/filebrowser-oidc/docker-compose.yml",
+            "compose_url": "https://raw.githubusercontent.com/twizeldev/arcane_templates/main/filebrowser-oidc/docker-compose.yaml",
             "env_url": "https://raw.githubusercontent.com/twizeldev/arcane_templates/main/filebrowser-oidc/.env.example",
             "documentation_url": "https://github.com/twizeldev/arcane_templates/main/filebrowser-oidc",
             "tags": ["files", "oidc"]
