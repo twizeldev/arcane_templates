@@ -1,0 +1,20 @@
+services:
+  filebrowser:
+    image: ghcr.io/gtsteffaniak/filebrowser:1-stable
+    container_name: filebrowser
+    restart: unless-stopped
+    environment:
+      - FILEBROWSER_CONFIG=data/config.yaml
+      - FILEBROWSER_OIDC_CLIENT_ID=${CLIENT_ID}
+      - FILEBROWSER_OIDC_CLIENT_SECRET=${CLIENT_SECRET}
+    volumes:
+      - /docker/config/filebrowser:/home/filebrowser/data
+      - /data:/data
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - wget -q --spider --timeout=5 http://localhost/health
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
