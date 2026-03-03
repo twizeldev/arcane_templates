@@ -1,0 +1,3 @@
+# Seerr
+
+Media requests system
