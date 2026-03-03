@@ -1,6 +1,6 @@
 {
     "$schema": "https://registry.getarcane.app/schema.json",
-    "name": "Twizeldevs Arcane TEmplates",
+    "name": "Twizeldevs Arcane Templates",
     "description": "Docker templates for generally personal use",
     "version": "1.0.0",
     "author": "Twizeldev",
