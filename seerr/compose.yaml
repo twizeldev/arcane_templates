@@ -1,3 +1,8 @@
+x-arcane:
+  icon: https://cdn.jsdelivr.net/gh/selfhst/icons@main/png/seerr.png
+  urls:
+    - https://seerr.dev
+
 services:
   seerr:
     image: ghcr.io/seerr-team/seerr:latest
@@ -18,3 +23,6 @@ services:
       interval: 15s
       retries: 3
     init: true
+    labels:
+      - arcane.updater=false
+      - arcane.icon=https://cdn.jsdelivr.net/gh/selfhst/icons@main/png/seerr.png
